@@ -1,0 +1,436 @@
+@charset "UTF-8"
+body {
+  margin: 0;
+  font-size: 16px;
+  padding: 30px; 
+  min-height: 100%; 
+  overflow: hidden;
+  font-size: 16px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#overwrap{
+  overflow: hidden;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダー*/
+header{
+ width: 100%;
+}
+
+.logo{
+  width: 70%;
+}
+
+.collapse{
+  justify-content: center;
+}
+
+.nav-item{
+  font-size: 0.8rem;
+}
+
+.navbar-toggler{
+  border-color: rgba(0,0,0,0);
+}
+
+/* トップ */
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-wrapper {
+  padding: 280px 0 100px 0;
+  color: #fff;
+  text-align: center;
+  max-height: 40rem;
+  background-image: url(../3671165_m.jpg);
+  background-size: cover;
+}
+
+/* トップへ戻る */
+
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+#page_top a {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 10px;
+  border: 1px solid black;
+}
+#page_top a:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* コンテンツが浮かび上がる仕様 */
+/* 画面外にいる状態 */
+.fadein {
+  opacity: 0.1;
+  transform: translate(0, 50px);
+  transition: all 2000ms;
+}
+
+/* 画面内に入った状態 */
+.fadein.scrollin {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+span{
+  color: red;
+}
+
+h1 {
+  font-family: 'Kosugi Maru', sans-serif;
+  display: block;
+  margin-bottom: 0;
+  font-weight: 100;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.box1,.box2{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.txt{
+  display: flex;
+}
+
+.box3{
+  text-align: left;
+}
+
+.lefttxt{
+  margin-top: 5%;
+  text-align: left;
+}
+
+h2{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.box5 p{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h4{
+  padding-top: 20px;
+
+}
+
+ul{
+  padding-top: 20px;
+}
+
+.border{
+  border-bottom: 1px solid black;
+}
+
+li{
+  font-size: 1rem;
+}
+
+/* boxを統合 */
+
+.boxA{
+  max-width: 940px;
+  margin-top:10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box2 h3{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.bgcolor{
+  background-color: #d4fc79;
+}
+
+.photo{
+  max-width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.flexbox{
+  display: flex;
+}
+
+.col-sm{
+  margin-bottom: 10px;
+}
+
+.front{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
+.link{
+  color: #fff;
+  text-decoration: none;
+}
+
+.link a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.bold{
+  font-weight: 900;
+}
+
+/* 投稿部分 */
+
+.blog{
+  color: #000;
+  text-align: left;
+  margin:10% 0%;
+}
+
+.kiji{
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+}
+
+.box5{
+  padding-top: 5%;
+  width: 100%;
+    height:400px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+      color: #000;
+  text-align: center;
+}
+
+.box5 p{
+  color: #000;
+}
+
+#dropdownMenuButton{
+  background-color: #fff;
+  color: #000;
+}
+
+.box6{
+  margin-bottom: 10%;
+}
+
+.form{
+  margin-top: 30px;
+padding: 15px 40px 5px 40px;
+font-size: 2rem;
+border-width: 0.1px;
+color: #000;
+background-color: rgba(0, 0, 0, 0);
+}
+
+.button{
+  width: 100px;
+}
+
+.contact{
+  text-align: left;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.text-danger{
+  width: 100px;
+}
+
+/* フッター */
+footer{
+  padding-top: 5%;
+  width: 100%;
+    height:400px;
+  background: linear-gradient(-135deg, #E4A972, #9941D8);
+  color: white;
+  text-align: center;
+}
+
+ul.footer-menu li {
+  display: inline;
+  }
+
+/* SNSアイコン */
+.icon{
+  padding:10px;
+}
+
+.icon a{
+  padding: 10px;
+}
+
+.fa-twitter{
+  color: #1DA1F2;
+}
+.fa-instagram{
+  color: #F26939;
+}
+.fa-facebook-f{
+  color: #3C5A99;
+}
+.fa-youtube{
+  color: #DA1725;
+}
+/* 
+/* #######508px以下######### */
+@media (max-width: 508px) {
+  /* 全体の横幅を固定 */
+
+ #wrapper {
+    max-width: 508px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo{
+    margin-left: 15%;
+  }
+
+  .boxA{
+    max-width: 508px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+    
+  .photo{
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+  } 
+
+  .photo2{
+    max-width: 100%;
+  }
+
+  .box5{
+    padding-left: 30px;
+    padding-right: 30px;
+    height:400px;
+  }
+
+  .form{
+    margin-top: 30px;
+  padding: 15px 20px 5px 40px;
+  font-size: 2rem;
+  border-width: 0.1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  }
+
+  .line{
+    width: 200px;
+  }
+
+  .contact{
+    margin-right: 3%;
+    padding-right: 4%;
+    width: 80%;
+  }
+
+  footer{
+    padding:30px;
+  }
+
+} 
+
+
+
+
+/* #######874px以下######### */
+@media (max-width: 874px) {
+  /* 全体の横幅を固定 */
+
+  #wrapper {
+    width: 874px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo{
+    margin-left: 20%;
+  }
+  .boxA{
+    max-width: 874px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.box2{
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.box2 h3{
+  margin-left:20px;
+  margin-right: 20px;
+} 
+
+.box2 p{
+  display: block;
+  margin-left:20px;
+  margin-right: 20px;
+}
+
+  .photo{
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+  } 
+
+  .photo2{
+    max-width: 70%;
+  }
+
+  .box5{
+    height:400px;
+  }
+
+
+}
+
+/* #######1190px以上######### */
+@media (min-width: 1190px) {
+  /* 全体の横幅を固定 */
+
+
+  #wrapper {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
